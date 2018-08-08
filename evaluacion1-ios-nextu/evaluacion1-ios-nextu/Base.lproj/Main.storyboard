@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -28,14 +29,17 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Abstraction" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lUN-HP-mhH">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Abstraction" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lUN-HP-mhH">
                                                     <rect key="frame" x="16" y="12" width="89" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="lUN-HP-mhH" firstAttribute="bottom" secondItem="rOb-vI-x5Z" secondAttribute="bottomMargin" id="61M-w6-ur9"/>
+                                                <constraint firstItem="lUN-HP-mhH" firstAttribute="leading" secondItem="rOb-vI-x5Z" secondAttribute="leadingMargin" id="ZI2-xo-1bo"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="e8i-je-zpR" kind="showDetail" id="grh-gi-dKh"/>
@@ -48,14 +52,17 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Algorithm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UnA-wL-ZBA">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Algorithm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UnA-wL-ZBA">
                                                     <rect key="frame" x="16" y="12" width="75" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="UnA-wL-ZBA" firstAttribute="bottom" secondItem="oQm-zP-PdZ" secondAttribute="bottomMargin" id="k5g-iu-s7i"/>
+                                                <constraint firstItem="UnA-wL-ZBA" firstAttribute="leading" secondItem="oQm-zP-PdZ" secondAttribute="leadingMargin" id="xbn-g9-eW7"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="9cL-aa-QRt" kind="showDetail" id="ojW-mO-9j7"/>
@@ -68,14 +75,17 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Class" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gzk-T0-NhP">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Class" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gzk-T0-NhP">
                                                     <rect key="frame" x="16" y="12" width="42" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Gzk-T0-NhP" firstAttribute="bottom" secondItem="3db-Sv-5ez" secondAttribute="bottomMargin" id="NfQ-uf-k88"/>
+                                                <constraint firstItem="Gzk-T0-NhP" firstAttribute="leading" secondItem="3db-Sv-5ez" secondAttribute="leadingMargin" id="ra4-dC-8a6"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="bh2-sn-9zo" kind="showDetail" id="xVe-ax-UbY"/>
@@ -88,14 +98,17 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Conditional" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ziM-rO-raj">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Conditional" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ziM-rO-raj">
                                                     <rect key="frame" x="16" y="12" width="87" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="ziM-rO-raj" firstAttribute="leading" secondItem="uqs-z9-vdh" secondAttribute="leadingMargin" id="d1S-DA-cM8"/>
+                                                <constraint firstItem="ziM-rO-raj" firstAttribute="bottom" secondItem="uqs-z9-vdh" secondAttribute="bottomMargin" id="vts-JU-yUc"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="StE-G1-hv1" kind="showDetail" id="Iil-KI-Hl0"/>
@@ -108,14 +121,17 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Loop" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Czk-0X-JuE">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loop" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Czk-0X-JuE">
                                                     <rect key="frame" x="16" y="12" width="39" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Czk-0X-JuE" firstAttribute="bottom" secondItem="mY2-fn-IXl" secondAttribute="bottomMargin" id="QR6-fe-1xS"/>
+                                                <constraint firstItem="Czk-0X-JuE" firstAttribute="leading" secondItem="mY2-fn-IXl" secondAttribute="leadingMargin" id="bj1-Vl-4vP"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="Qem-O0-UvO" kind="showDetail" id="1Ce-2v-X02"/>
@@ -132,14 +148,17 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Change Lenguage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pgW-ps-9oT">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change Lenguage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pgW-ps-9oT">
                                                     <rect key="frame" x="16" y="12" width="140" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="pgW-ps-9oT" firstAttribute="bottom" secondItem="gac-M4-94Z" secondAttribute="bottomMargin" id="K0n-Zz-llW"/>
+                                                <constraint firstItem="pgW-ps-9oT" firstAttribute="leading" secondItem="gac-M4-94Z" secondAttribute="leadingMargin" id="i1i-8E-oK2"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="t5H-Qc-btT" kind="showDetail" id="XoT-KS-a4D"/>
@@ -167,23 +186,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="T0j-1W-rSK">
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="T0j-1W-rSK">
                                 <rect key="frame" x="127" y="149" width="121" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="Español"/>
                                     <segment title="Ingles"/>
                                 </segments>
                             </segmentedControl>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Seleccione Idioma" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GDF-YD-qzy">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seleccione Idioma" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GDF-YD-qzy">
                                 <rect key="frame" x="118" y="98" width="139" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="GDF-YD-qzy" firstAttribute="centerX" secondItem="T0j-1W-rSK" secondAttribute="centerX" id="91L-Bl-usu"/>
+                            <constraint firstItem="T0j-1W-rSK" firstAttribute="top" secondItem="GDF-YD-qzy" secondAttribute="bottom" constant="30" id="JDC-oE-whz"/>
+                            <constraint firstItem="GDF-YD-qzy" firstAttribute="centerX" secondItem="3dj-RD-Nbf" secondAttribute="centerX" id="gj4-GJ-kdi"/>
+                            <constraint firstItem="GDF-YD-qzy" firstAttribute="top" secondItem="SBu-F8-UYp" secondAttribute="top" constant="34" id="m7Z-GV-sRa"/>
+                            <constraint firstItem="T0j-1W-rSK" firstAttribute="leading" secondItem="SBu-F8-UYp" secondAttribute="leading" constant="127" id="zhD-la-o68"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="SBu-F8-UYp"/>
                     </view>
                 </viewController>
@@ -199,16 +223,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Algoritmo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="niq-B3-hzY">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Algoritmo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="niq-B3-hzY">
                                 <rect key="frame" x="150" y="64" width="75" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="Wn6-Hr-vjx">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="Wn6-Hr-vjx">
                                 <rect key="frame" x="16" y="93" width="343" height="356"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <mutableString key="text">En matemáticas, lógica, ciencias de la computación y disciplinas relacionadas, un algoritmo (del griego y latín, dixit algorithmus y este del griego arithmos, que significa «número», quizá también con influencia del nombre del matemático persa Al-Juarismi)1​ es un conjunto prescrito de instrucciones o reglas bien definidas, ordenadas y finitas que permite llevar a cabo una actividad mediante pasos sucesivos que no generen dudas a quien deba hacer dicha actividad.2​ Dados un estado inicial y una entrada, siguiendo los pasos sucesivos se llega a un estado final y se obtiene una solución. Los algoritmos son el objeto de estudio de la algoritmia.1​
 
@@ -216,13 +238,14 @@ En la vida cotidiana, se emplean algoritmos frecuentemente para resolver problem
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="algiritmo" translatesAutoresizingMaskIntoConstraints="NO" id="9b9-Ws-8XA">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="algiritmo" translatesAutoresizingMaskIntoConstraints="NO" id="9b9-Ws-8XA">
                                 <rect key="frame" x="16" y="457" width="343" height="164"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="164" id="mTO-c0-v4q"/>
+                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9n8-J7-9TG">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9n8-J7-9TG">
                                 <rect key="frame" x="16" y="629" width="343" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.61716726040000003" green="0.61716726040000003" blue="0.61716726040000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="ir a Wikipedia">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -230,6 +253,20 @@ En la vida cotidiana, se emplean algoritmos frecuentemente para resolver problem
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="niq-B3-hzY" firstAttribute="top" secondItem="t6n-O9-eyI" secondAttribute="top" id="0Km-Nd-vZN"/>
+                            <constraint firstItem="9b9-Ws-8XA" firstAttribute="trailing" secondItem="9n8-J7-9TG" secondAttribute="trailing" id="6OZ-6P-09Q"/>
+                            <constraint firstItem="Wn6-Hr-vjx" firstAttribute="leading" secondItem="9b9-Ws-8XA" secondAttribute="leading" id="EYI-ut-nVT"/>
+                            <constraint firstItem="Wn6-Hr-vjx" firstAttribute="leading" secondItem="aY2-rG-0Bj" secondAttribute="leadingMargin" id="R2Q-Id-Lem"/>
+                            <constraint firstItem="niq-B3-hzY" firstAttribute="centerX" secondItem="Wn6-Hr-vjx" secondAttribute="centerX" id="WBN-UW-rSX"/>
+                            <constraint firstItem="t6n-O9-eyI" firstAttribute="bottom" secondItem="9n8-J7-9TG" secondAttribute="bottom" constant="8" id="bee-RF-Ggm"/>
+                            <constraint firstItem="9n8-J7-9TG" firstAttribute="top" secondItem="9b9-Ws-8XA" secondAttribute="bottom" constant="8" symbolic="YES" id="gAk-Yt-QyS"/>
+                            <constraint firstItem="9b9-Ws-8XA" firstAttribute="top" secondItem="Wn6-Hr-vjx" secondAttribute="bottom" constant="8" symbolic="YES" id="ghc-Th-zOg"/>
+                            <constraint firstItem="Wn6-Hr-vjx" firstAttribute="top" secondItem="niq-B3-hzY" secondAttribute="bottom" constant="8" symbolic="YES" id="kA9-f7-6rF"/>
+                            <constraint firstItem="9b9-Ws-8XA" firstAttribute="leading" secondItem="9n8-J7-9TG" secondAttribute="leading" id="tIX-2W-fGZ"/>
+                            <constraint firstItem="Wn6-Hr-vjx" firstAttribute="trailing" secondItem="9b9-Ws-8XA" secondAttribute="trailing" id="vkg-2X-G8L"/>
+                            <constraint firstItem="Wn6-Hr-vjx" firstAttribute="trailing" secondItem="aY2-rG-0Bj" secondAttribute="trailingMargin" id="xkw-6Z-Hdd"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="t6n-O9-eyI"/>
                     </view>
                 </viewController>
@@ -245,28 +282,31 @@ En la vida cotidiana, se emplean algoritmos frecuentemente para resolver problem
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sentencia Condicional" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uug-8f-CwX">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sentencia Condicional" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uug-8f-CwX">
                                 <rect key="frame" x="102" y="64" width="170" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="z8h-46-WoB">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="z8h-46-WoB">
                                 <rect key="frame" x="16" y="93" width="343" height="292"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">En programación, una sentencia condicional es una instrucción o grupo de instrucciones que se pueden ejecutar o no en función del valor de una condición.
+
+Los tipos más conocidos de sentencias condicionales son el SI..ENTONCES (if..then), el SI..ENTONCES..SI NO (if..then..else) y el SEGÚN (case o switch), aunque también podríamos mencionar al manejo de excepciones como una alternativa más moderna para evitar el "anidamiento" de sentencias condicionales.
+
+Las sentencias condicionales constituyen, junto con los bucles, los pilares de la programación estructurada, y su uso es una evolución de una sentencia en lenguaje ensamblador que ejecutaba la siguiente línea o no en función del valor de una condición.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qgb-6e-iV4">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="if-else" translatesAutoresizingMaskIntoConstraints="NO" id="qgb-6e-iV4">
                                 <rect key="frame" x="16" y="393" width="343" height="225"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="225" id="HMM-uU-lSe"/>
+                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x32-oi-MZ4">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x32-oi-MZ4">
                                 <rect key="frame" x="16" y="626" width="343" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.61716726040000003" green="0.61716726040000003" blue="0.61716726040000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="ir a Wikipedia">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -274,6 +314,20 @@ En la vida cotidiana, se emplean algoritmos frecuentemente para resolver problem
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="qgb-6e-iV4" firstAttribute="leading" secondItem="x32-oi-MZ4" secondAttribute="leading" id="2ga-HI-YBN"/>
+                            <constraint firstItem="z8h-46-WoB" firstAttribute="leading" secondItem="qgb-6e-iV4" secondAttribute="leading" id="5pE-ng-aYQ"/>
+                            <constraint firstItem="qgb-6e-iV4" firstAttribute="trailing" secondItem="x32-oi-MZ4" secondAttribute="trailing" id="Ep3-CF-kJU"/>
+                            <constraint firstItem="uug-8f-CwX" firstAttribute="top" secondItem="nv3-bP-9sQ" secondAttribute="top" id="I3g-Yf-hgj"/>
+                            <constraint firstItem="z8h-46-WoB" firstAttribute="top" secondItem="uug-8f-CwX" secondAttribute="bottom" constant="8" symbolic="YES" id="NTB-NF-JNP"/>
+                            <constraint firstItem="z8h-46-WoB" firstAttribute="trailing" secondItem="qgb-6e-iV4" secondAttribute="trailing" id="W04-n0-1E4"/>
+                            <constraint firstItem="qgb-6e-iV4" firstAttribute="top" secondItem="z8h-46-WoB" secondAttribute="bottom" constant="8" symbolic="YES" id="WkD-CR-Tpp"/>
+                            <constraint firstItem="x32-oi-MZ4" firstAttribute="top" secondItem="qgb-6e-iV4" secondAttribute="bottom" constant="8" symbolic="YES" id="aNK-r4-nGS"/>
+                            <constraint firstItem="z8h-46-WoB" firstAttribute="leading" secondItem="8S7-j9-av2" secondAttribute="leadingMargin" id="awT-jY-AcL"/>
+                            <constraint firstItem="z8h-46-WoB" firstAttribute="trailing" secondItem="8S7-j9-av2" secondAttribute="trailingMargin" id="tMW-2r-gvg"/>
+                            <constraint firstItem="uug-8f-CwX" firstAttribute="centerX" secondItem="z8h-46-WoB" secondAttribute="centerX" id="uVI-Vh-dMN"/>
+                            <constraint firstItem="nv3-bP-9sQ" firstAttribute="bottom" secondItem="x32-oi-MZ4" secondAttribute="bottom" constant="11" id="y2m-bM-nHY"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="nv3-bP-9sQ"/>
                     </view>
                 </viewController>
@@ -289,28 +343,27 @@ En la vida cotidiana, se emplean algoritmos frecuentemente para resolver problem
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bucle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rqp-HX-Lmj">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bucle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rqp-HX-Lmj">
                                 <rect key="frame" x="166" y="64" width="43" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vEx-q0-ita">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="vEx-q0-ita">
                                 <rect key="frame" x="16" y="93" width="343" height="331"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <string key="text">Un bucle o ciclo, en programación, es una sentencia que ejecuta repetidas veces un trozo de código, hasta que la condición asignada a dicho bucle deja de cumplirse. Los tres bucles más utilizados en programación son el bucle while, el bucle for y el bucle do-while.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gMz-M1-pU4">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bucle" translatesAutoresizingMaskIntoConstraints="NO" id="gMz-M1-pU4">
                                 <rect key="frame" x="16" y="432" width="349" height="194"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="194" id="QLa-rO-zjz"/>
+                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5xn-67-5kX">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5xn-67-5kX">
                                 <rect key="frame" x="16" y="634" width="349" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.61716726040000003" green="0.61716726040000003" blue="0.61716726040000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="ir a Wikipedia">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -318,6 +371,20 @@ En la vida cotidiana, se emplean algoritmos frecuentemente para resolver problem
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ZCT-W5-Btq" firstAttribute="trailing" secondItem="gMz-M1-pU4" secondAttribute="trailing" constant="10" id="CoT-Ic-fvb"/>
+                            <constraint firstItem="vEx-q0-ita" firstAttribute="leading" secondItem="gMz-M1-pU4" secondAttribute="leading" id="Fx2-tL-Kk8"/>
+                            <constraint firstItem="vEx-q0-ita" firstAttribute="trailing" secondItem="fFd-fA-Cam" secondAttribute="trailingMargin" id="Gjc-DZ-EeF"/>
+                            <constraint firstItem="vEx-q0-ita" firstAttribute="top" secondItem="Rqp-HX-Lmj" secondAttribute="bottom" constant="8" symbolic="YES" id="IMN-BT-Ue5"/>
+                            <constraint firstItem="gMz-M1-pU4" firstAttribute="trailing" secondItem="5xn-67-5kX" secondAttribute="trailing" id="YWB-1S-I6q"/>
+                            <constraint firstItem="gMz-M1-pU4" firstAttribute="top" secondItem="vEx-q0-ita" secondAttribute="bottom" constant="8" symbolic="YES" id="Z1w-Av-tF0"/>
+                            <constraint firstItem="Rqp-HX-Lmj" firstAttribute="centerX" secondItem="vEx-q0-ita" secondAttribute="centerX" id="ZHv-ds-sxR"/>
+                            <constraint firstItem="gMz-M1-pU4" firstAttribute="leading" secondItem="5xn-67-5kX" secondAttribute="leading" id="dun-dp-Wh5"/>
+                            <constraint firstItem="ZCT-W5-Btq" firstAttribute="bottom" secondItem="5xn-67-5kX" secondAttribute="bottom" constant="3" id="iQ2-Gd-oj6"/>
+                            <constraint firstItem="5xn-67-5kX" firstAttribute="top" secondItem="gMz-M1-pU4" secondAttribute="bottom" constant="8" symbolic="YES" id="mvA-zL-cY1"/>
+                            <constraint firstItem="Rqp-HX-Lmj" firstAttribute="top" secondItem="ZCT-W5-Btq" secondAttribute="top" id="pe6-ll-Qa8"/>
+                            <constraint firstItem="vEx-q0-ita" firstAttribute="leading" secondItem="fFd-fA-Cam" secondAttribute="leadingMargin" id="xZq-ii-cO6"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="ZCT-W5-Btq"/>
                     </view>
                 </viewController>
@@ -333,16 +400,14 @@ En la vida cotidiana, se emplean algoritmos frecuentemente para resolver problem
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Abatraccion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mO9-Jd-RFc">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Abatraccion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mO9-Jd-RFc">
                                 <rect key="frame" x="141" y="64" width="93" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="4P8-Ln-zmZ">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="4P8-Ln-zmZ">
                                 <rect key="frame" x="16" y="93" width="343" height="349"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <mutableString key="text">La abstracción consiste en aislar un elemento de su contexto o del resto de los elementos que lo acompañan. En programación, el término se refiere al énfasis en el "¿qué hace?" más que en el "¿cómo lo hace?" (característica de caja negra). El común denominador en la evolución de los lenguajes de programación, desde los clásicos o imperativos hasta los orientados a objetos, ha sido el nivel de abstracción del que cada uno de ellos hace uso.
 
@@ -358,13 +423,14 @@ Durante años, los programadores se han dedicado a construir aplicaciones muy pa
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abstraccion" highlightedImage="abstraccion" translatesAutoresizingMaskIntoConstraints="NO" id="T3q-I4-Bcp">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="abstraccion" highlightedImage="abstraccion" translatesAutoresizingMaskIntoConstraints="NO" id="T3q-I4-Bcp">
                                 <rect key="frame" x="16" y="450" width="343" height="162"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="162" id="4LQ-14-aDp"/>
+                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ri2-gC-umA">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ri2-gC-umA">
                                 <rect key="frame" x="16" y="620" width="343" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.61716726040000003" green="0.61716726040000003" blue="0.61716726040000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="ir a Wikipedia">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -373,6 +439,20 @@ Durante años, los programadores se han dedicado a construir aplicaciones muy pa
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Ri2-gC-umA" firstAttribute="top" secondItem="T3q-I4-Bcp" secondAttribute="bottom" constant="8" symbolic="YES" id="3E3-yG-RSq"/>
+                            <constraint firstItem="4P8-Ln-zmZ" firstAttribute="trailing" secondItem="T3q-I4-Bcp" secondAttribute="trailing" id="69J-iq-QhQ"/>
+                            <constraint firstItem="T3q-I4-Bcp" firstAttribute="leading" secondItem="Ri2-gC-umA" secondAttribute="leading" id="AQo-aj-DuS"/>
+                            <constraint firstItem="T3q-I4-Bcp" firstAttribute="trailing" secondItem="Ri2-gC-umA" secondAttribute="trailing" id="KO6-Lu-5z4"/>
+                            <constraint firstItem="4P8-Ln-zmZ" firstAttribute="top" secondItem="mO9-Jd-RFc" secondAttribute="bottom" constant="8" symbolic="YES" id="M8Z-vJ-pJd"/>
+                            <constraint firstItem="4P8-Ln-zmZ" firstAttribute="trailing" secondItem="rCV-Jc-ec6" secondAttribute="trailingMargin" id="PWk-qm-QEa"/>
+                            <constraint firstItem="4P8-Ln-zmZ" firstAttribute="leading" secondItem="T3q-I4-Bcp" secondAttribute="leading" id="RNY-Gl-dqW"/>
+                            <constraint firstItem="T3q-I4-Bcp" firstAttribute="top" secondItem="4P8-Ln-zmZ" secondAttribute="bottom" constant="8" symbolic="YES" id="fLC-a1-UBy"/>
+                            <constraint firstItem="4P8-Ln-zmZ" firstAttribute="leading" secondItem="rCV-Jc-ec6" secondAttribute="leadingMargin" id="nt3-Ez-Kcz"/>
+                            <constraint firstItem="mO9-Jd-RFc" firstAttribute="centerX" secondItem="4P8-Ln-zmZ" secondAttribute="centerX" id="oiM-ym-YLo"/>
+                            <constraint firstItem="97c-8q-Rig" firstAttribute="bottom" secondItem="Ri2-gC-umA" secondAttribute="bottom" constant="17" id="qsS-MO-0nZ"/>
+                            <constraint firstItem="mO9-Jd-RFc" firstAttribute="top" secondItem="97c-8q-Rig" secondAttribute="top" id="xXZ-C9-Cnm"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="97c-8q-Rig"/>
                     </view>
                 </viewController>
@@ -388,28 +468,31 @@ Durante años, los programadores se han dedicado a construir aplicaciones muy pa
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Clase" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ofh-vc-HrJ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clase" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ofh-vc-HrJ">
                                 <rect key="frame" x="166" y="64" width="43" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CQf-KT-zGD">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="CQf-KT-zGD">
                                 <rect key="frame" x="16" y="93" width="343" height="323"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">En informática, una clase es una plantilla para la creación de objetos de datos según un modelo predefinido. Las clases se utilizan para representar entidades o conceptos, como los sustantivos en el lenguaje. Cada clase es un modelo que define un conjunto de variables -el estado, y métodos apropiados para operar con dichos datos -el comportamiento. Cada objeto creado a partir de la clase se denomina instancia de la clase.
+
+Las clases son un pilar fundamental de la programación orientada a objetos. Permiten abstraer los datos y sus operaciones asociadas al modo de una caja negra. Los lenguajes de programación que soportan clases difieren sutilmente en su soporte para diversas características relacionadas con clases. La mayoría soportan diversas formas de herencia. Muchos lenguajes también soportan características para proporcionar encapsulación, como especificadores de acceso.
+
+Una clase también puede tener una representación (metaobjeto) en tiempo de ejecución, que proporciona apoyo en tiempo de ejecución para la manipulación de los metadatos relacionados con la clase.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WMq-9S-EyQ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clase" translatesAutoresizingMaskIntoConstraints="NO" id="WMq-9S-EyQ">
                                 <rect key="frame" x="16" y="424" width="343" height="196"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="196" id="jX8-DD-05d"/>
+                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rsY-Dj-ah6">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rsY-Dj-ah6">
                                 <rect key="frame" x="16" y="628" width="343" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.61716726040000003" green="0.61716726040000003" blue="0.61716726040000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="ir a Wikipedia">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -417,6 +500,20 @@ Durante años, los programadores se han dedicado a construir aplicaciones muy pa
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="rsY-Dj-ah6" firstAttribute="top" secondItem="WMq-9S-EyQ" secondAttribute="bottom" constant="8" symbolic="YES" id="2mm-ZP-Yir"/>
+                            <constraint firstItem="ysC-1a-0pu" firstAttribute="bottom" secondItem="rsY-Dj-ah6" secondAttribute="bottom" constant="9" id="3r3-2k-tgE"/>
+                            <constraint firstItem="CQf-KT-zGD" firstAttribute="top" secondItem="ofh-vc-HrJ" secondAttribute="bottom" constant="8" symbolic="YES" id="3yZ-qB-qz3"/>
+                            <constraint firstItem="CQf-KT-zGD" firstAttribute="leading" secondItem="3oa-WZ-FJx" secondAttribute="leadingMargin" id="622-0r-6SQ"/>
+                            <constraint firstItem="CQf-KT-zGD" firstAttribute="trailing" secondItem="WMq-9S-EyQ" secondAttribute="trailing" id="M3V-PC-VUT"/>
+                            <constraint firstItem="WMq-9S-EyQ" firstAttribute="trailing" secondItem="rsY-Dj-ah6" secondAttribute="trailing" id="Mzk-jR-oXv"/>
+                            <constraint firstItem="ofh-vc-HrJ" firstAttribute="centerX" secondItem="CQf-KT-zGD" secondAttribute="centerX" id="NI0-jA-Fgn"/>
+                            <constraint firstItem="WMq-9S-EyQ" firstAttribute="leading" secondItem="rsY-Dj-ah6" secondAttribute="leading" id="bpl-Nw-myg"/>
+                            <constraint firstItem="ofh-vc-HrJ" firstAttribute="top" secondItem="ysC-1a-0pu" secondAttribute="top" id="dcA-dX-IO2"/>
+                            <constraint firstItem="CQf-KT-zGD" firstAttribute="trailing" secondItem="3oa-WZ-FJx" secondAttribute="trailingMargin" id="hWm-qD-HqK"/>
+                            <constraint firstItem="CQf-KT-zGD" firstAttribute="leading" secondItem="WMq-9S-EyQ" secondAttribute="leading" id="kae-aY-ek9"/>
+                            <constraint firstItem="WMq-9S-EyQ" firstAttribute="top" secondItem="CQf-KT-zGD" secondAttribute="bottom" constant="8" symbolic="YES" id="uJe-WS-2b8"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="ysC-1a-0pu"/>
                     </view>
                 </viewController>
@@ -457,8 +554,11 @@ Durante años, los programadores se han dedicado a construir aplicaciones muy pa
     <resources>
         <image name="abstraccion" width="800" height="511"/>
         <image name="algiritmo" width="324" height="442"/>
+        <image name="bucle" width="273" height="184"/>
+        <image name="clase" width="298" height="236"/>
+        <image name="if-else" width="280" height="262"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="wy7-Ro-jUh"/>
+        <segue reference="XoT-KS-a4D"/>
     </inferredMetricsTieBreakers>
 </document>

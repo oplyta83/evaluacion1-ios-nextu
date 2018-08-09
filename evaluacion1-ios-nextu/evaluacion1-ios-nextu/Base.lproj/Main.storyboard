@@ -215,10 +215,10 @@
             </objects>
             <point key="canvasLocation" x="201" y="538"/>
         </scene>
-        <!--View Controller-->
+        <!--Algorithm View Controller-->
         <scene sceneID="8Oa-eS-4jb">
             <objects>
-                <viewController id="9cL-aa-QRt" sceneMemberID="viewController">
+                <viewController id="9cL-aa-QRt" customClass="AlgorithmViewController" customModule="evaluacion1_ios_nextu" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aY2-rG-0Bj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -250,6 +250,9 @@ En la vida cotidiana, se emplean algoritmos frecuentemente para resolver problem
                                 <state key="normal" title="ir a Wikipedia">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnWikipedia:" destination="9cL-aa-QRt" eventType="touchUpInside" id="NY3-kr-SYh"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -269,15 +272,20 @@ En la vida cotidiana, se emplean algoritmos frecuentemente para resolver problem
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="t6n-O9-eyI"/>
                     </view>
+                    <connections>
+                        <outlet property="btnWikipedia" destination="9n8-J7-9TG" id="9pR-lr-Vs3"/>
+                        <outlet property="lblTitle" destination="niq-B3-hzY" id="mqu-QC-Zg8"/>
+                        <outlet property="txtDefinition" destination="Wn6-Hr-vjx" id="xEN-el-DXL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tn0-5M-B03" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2676" y="142.57871064467767"/>
         </scene>
-        <!--View Controller-->
+        <!--Conditional View Controller-->
         <scene sceneID="vKx-A9-rFW">
             <objects>
-                <viewController id="StE-G1-hv1" sceneMemberID="viewController">
+                <viewController id="StE-G1-hv1" customClass="ConditionalViewController" customModule="evaluacion1_ios_nextu" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8S7-j9-av2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -311,6 +319,9 @@ Las sentencias condicionales constituyen, junto con los bucles, los pilares de l
                                 <state key="normal" title="ir a Wikipedia">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnWikipedia:" destination="StE-G1-hv1" eventType="touchUpInside" id="gaU-kU-BOB"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -330,15 +341,19 @@ Las sentencias condicionales constituyen, junto con los bucles, los pilares de l
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="nv3-bP-9sQ"/>
                     </view>
+                    <connections>
+                        <outlet property="lblTitle" destination="uug-8f-CwX" id="Ltq-Hc-Wi5"/>
+                        <outlet property="txtDefinition" destination="z8h-46-WoB" id="nSD-AM-UiM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QbN-JX-Zzd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1880.8" y="142.57871064467767"/>
         </scene>
-        <!--View Controller-->
+        <!--Loop View Controller-->
         <scene sceneID="RcD-RD-3ng">
             <objects>
-                <viewController id="Qem-O0-UvO" sceneMemberID="viewController">
+                <viewController id="Qem-O0-UvO" customClass="LoopViewController" customModule="evaluacion1_ios_nextu" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fFd-fA-Cam">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -352,50 +367,59 @@ Las sentencias condicionales constituyen, junto con los bucles, los pilares de l
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="vEx-q0-ita">
                                 <rect key="frame" x="16" y="93" width="343" height="331"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="331" id="n9p-aq-dDM"/>
+                                </constraints>
                                 <string key="text">Un bucle o ciclo, en programación, es una sentencia que ejecuta repetidas veces un trozo de código, hasta que la condición asignada a dicho bucle deja de cumplirse. Los tres bucles más utilizados en programación son el bucle while, el bucle for y el bucle do-while.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bucle" translatesAutoresizingMaskIntoConstraints="NO" id="gMz-M1-pU4">
-                                <rect key="frame" x="16" y="432" width="349" height="194"/>
+                                <rect key="frame" x="16" y="409" width="349" height="194"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="194" id="QLa-rO-zjz"/>
+                                    <constraint firstAttribute="height" constant="194" id="Ucc-6C-LHa"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5xn-67-5kX">
-                                <rect key="frame" x="16" y="634" width="349" height="30"/>
+                                <rect key="frame" x="16" y="617" width="349" height="30"/>
                                 <color key="backgroundColor" red="0.61716726040000003" green="0.61716726040000003" blue="0.61716726040000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="ir a Wikipedia">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnWikipedia:" destination="Qem-O0-UvO" eventType="touchUpInside" id="QKV-op-oxs"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="ZCT-W5-Btq" firstAttribute="trailing" secondItem="gMz-M1-pU4" secondAttribute="trailing" constant="10" id="CoT-Ic-fvb"/>
-                            <constraint firstItem="vEx-q0-ita" firstAttribute="leading" secondItem="gMz-M1-pU4" secondAttribute="leading" id="Fx2-tL-Kk8"/>
-                            <constraint firstItem="vEx-q0-ita" firstAttribute="trailing" secondItem="fFd-fA-Cam" secondAttribute="trailingMargin" id="Gjc-DZ-EeF"/>
-                            <constraint firstItem="vEx-q0-ita" firstAttribute="top" secondItem="Rqp-HX-Lmj" secondAttribute="bottom" constant="8" symbolic="YES" id="IMN-BT-Ue5"/>
-                            <constraint firstItem="gMz-M1-pU4" firstAttribute="trailing" secondItem="5xn-67-5kX" secondAttribute="trailing" id="YWB-1S-I6q"/>
-                            <constraint firstItem="gMz-M1-pU4" firstAttribute="top" secondItem="vEx-q0-ita" secondAttribute="bottom" constant="8" symbolic="YES" id="Z1w-Av-tF0"/>
-                            <constraint firstItem="Rqp-HX-Lmj" firstAttribute="centerX" secondItem="vEx-q0-ita" secondAttribute="centerX" id="ZHv-ds-sxR"/>
-                            <constraint firstItem="gMz-M1-pU4" firstAttribute="leading" secondItem="5xn-67-5kX" secondAttribute="leading" id="dun-dp-Wh5"/>
-                            <constraint firstItem="ZCT-W5-Btq" firstAttribute="bottom" secondItem="5xn-67-5kX" secondAttribute="bottom" constant="3" id="iQ2-Gd-oj6"/>
-                            <constraint firstItem="5xn-67-5kX" firstAttribute="top" secondItem="gMz-M1-pU4" secondAttribute="bottom" constant="8" symbolic="YES" id="mvA-zL-cY1"/>
-                            <constraint firstItem="Rqp-HX-Lmj" firstAttribute="top" secondItem="ZCT-W5-Btq" secondAttribute="top" id="pe6-ll-Qa8"/>
-                            <constraint firstItem="vEx-q0-ita" firstAttribute="leading" secondItem="fFd-fA-Cam" secondAttribute="leadingMargin" id="xZq-ii-cO6"/>
+                            <constraint firstItem="gMz-M1-pU4" firstAttribute="trailing" secondItem="5xn-67-5kX" secondAttribute="trailing" id="17V-oM-GZ6"/>
+                            <constraint firstItem="vEx-q0-ita" firstAttribute="leading" secondItem="gMz-M1-pU4" secondAttribute="leading" id="H1L-Y0-Drg"/>
+                            <constraint firstItem="ZCT-W5-Btq" firstAttribute="trailing" secondItem="gMz-M1-pU4" secondAttribute="trailing" constant="10" id="I7H-jc-h1n"/>
+                            <constraint firstItem="Rqp-HX-Lmj" firstAttribute="centerX" secondItem="vEx-q0-ita" secondAttribute="centerX" id="NUM-Lu-fF0"/>
+                            <constraint firstItem="vEx-q0-ita" firstAttribute="top" secondItem="Rqp-HX-Lmj" secondAttribute="bottom" constant="8" symbolic="YES" id="S0Q-MS-ekf"/>
+                            <constraint firstItem="Rqp-HX-Lmj" firstAttribute="top" secondItem="ZCT-W5-Btq" secondAttribute="top" id="SDJ-OC-o2N"/>
+                            <constraint firstItem="gMz-M1-pU4" firstAttribute="leading" secondItem="5xn-67-5kX" secondAttribute="leading" id="Z9o-JF-1qB"/>
+                            <constraint firstItem="vEx-q0-ita" firstAttribute="leading" secondItem="fFd-fA-Cam" secondAttribute="leadingMargin" id="bbs-EL-lwd"/>
+                            <constraint firstItem="5xn-67-5kX" firstAttribute="top" secondItem="gMz-M1-pU4" secondAttribute="bottom" constant="14" id="tcR-2Y-WXQ"/>
+                            <constraint firstAttribute="bottom" secondItem="5xn-67-5kX" secondAttribute="bottom" constant="20" symbolic="YES" id="zm3-Vq-LMF"/>
+                            <constraint firstItem="vEx-q0-ita" firstAttribute="trailing" secondItem="fFd-fA-Cam" secondAttribute="trailingMargin" id="zn5-jz-XJR"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ZCT-W5-Btq"/>
                     </view>
+                    <connections>
+                        <outlet property="lblTitle" destination="Rqp-HX-Lmj" id="Laa-Id-KSc"/>
+                        <outlet property="txtDefinition" destination="vEx-q0-ita" id="hRe-eW-ZgH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dW4-fI-oHV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1173.5999999999999" y="545.57721139430294"/>
         </scene>
-        <!--View Controller-->
+        <!--Abastrac View Controller-->
         <scene sceneID="YkD-l3-YUr">
             <objects>
-                <viewController id="e8i-je-zpR" sceneMemberID="viewController">
+                <viewController id="e8i-je-zpR" customClass="AbastracViewController" customModule="evaluacion1_ios_nextu" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rCV-Jc-ec6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -436,6 +460,9 @@ Durante años, los programadores se han dedicado a construir aplicaciones muy pa
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" red="0.61716726040000003" green="0.61716726040000003" blue="0.61716726040000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnWikipedia:" destination="e8i-je-zpR" eventType="touchUpInside" id="B1K-Tl-nIX"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -455,15 +482,19 @@ Durante años, los programadores se han dedicado a construir aplicaciones muy pa
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="97c-8q-Rig"/>
                     </view>
+                    <connections>
+                        <outlet property="lblTitle" destination="mO9-Jd-RFc" id="h5J-h1-LPZ"/>
+                        <outlet property="txtDefinition" destination="4P8-Ln-zmZ" id="eJs-rn-dO4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b7d-PQ-Dxo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2614" y="-578"/>
         </scene>
-        <!--View Controller-->
+        <!--Class View Controller-->
         <scene sceneID="x5Y-dB-5G7">
             <objects>
-                <viewController id="bh2-sn-9zo" sceneMemberID="viewController">
+                <viewController id="bh2-sn-9zo" customClass="ClassViewController" customModule="evaluacion1_ios_nextu" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3oa-WZ-FJx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -497,6 +528,9 @@ Una clase también puede tener una representación (metaobjeto) en tiempo de eje
                                 <state key="normal" title="ir a Wikipedia">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnWikipedia:" destination="bh2-sn-9zo" eventType="touchUpInside" id="EAt-T1-038"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -516,6 +550,10 @@ Una clase también puede tener una representación (metaobjeto) en tiempo de eje
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ysC-1a-0pu"/>
                     </view>
+                    <connections>
+                        <outlet property="lblTitle" destination="ofh-vc-HrJ" id="xul-pJ-hlp"/>
+                        <outlet property="txtDefinition" destination="CQf-KT-zGD" id="l3V-qw-FL7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cwE-Er-ERX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -12,6 +12,11 @@
 		BC84F55D211BA4F300431DB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC84F55B211BA4F300431DB9 /* Main.storyboard */; };
 		BC84F55F211BA4FA00431DB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC84F55E211BA4FA00431DB9 /* Assets.xcassets */; };
 		BC84F562211BA4FA00431DB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC84F560211BA4FA00431DB9 /* LaunchScreen.storyboard */; };
+		BC84F56B211BBF6300431DB9 /* AbastracViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC84F56A211BBF6300431DB9 /* AbastracViewController.swift */; };
+		BC84F56D211BC1D900431DB9 /* ClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC84F56C211BC1D900431DB9 /* ClassViewController.swift */; };
+		BC84F56F211BC1FE00431DB9 /* ConditionalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC84F56E211BC1FE00431DB9 /* ConditionalViewController.swift */; };
+		BC84F571211BC21D00431DB9 /* AlgorithmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC84F570211BC21D00431DB9 /* AlgorithmViewController.swift */; };
+		BC84F573211BC23800431DB9 /* LoopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC84F572211BC23800431DB9 /* LoopViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		BC84F55E211BA4FA00431DB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC84F561211BA4FA00431DB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC84F563211BA4FA00431DB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC84F56A211BBF6300431DB9 /* AbastracViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbastracViewController.swift; sourceTree = "<group>"; };
+		BC84F56C211BC1D900431DB9 /* ClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassViewController.swift; sourceTree = "<group>"; };
+		BC84F56E211BC1FE00431DB9 /* ConditionalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalViewController.swift; sourceTree = "<group>"; };
+		BC84F570211BC21D00431DB9 /* AlgorithmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmViewController.swift; sourceTree = "<group>"; };
+		BC84F572211BC23800431DB9 /* LoopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 		BC84F556211BA4F300431DB9 /* evaluacion1-ios-nextu */ = {
 			isa = PBXGroup;
 			children = (
+				BC84F569211BBAFE00431DB9 /* Controllers */,
 				BC84F557211BA4F300431DB9 /* AppDelegate.swift */,
 				BC84F559211BA4F300431DB9 /* ViewController.swift */,
 				BC84F55B211BA4F300431DB9 /* Main.storyboard */,
@@ -62,6 +73,18 @@
 				BC84F563211BA4FA00431DB9 /* Info.plist */,
 			);
 			path = "evaluacion1-ios-nextu";
+			sourceTree = "<group>";
+		};
+		BC84F569211BBAFE00431DB9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC84F56A211BBF6300431DB9 /* AbastracViewController.swift */,
+				BC84F56C211BC1D900431DB9 /* ClassViewController.swift */,
+				BC84F56E211BC1FE00431DB9 /* ConditionalViewController.swift */,
+				BC84F570211BC21D00431DB9 /* AlgorithmViewController.swift */,
+				BC84F572211BC23800431DB9 /* LoopViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +159,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC84F55A211BA4F300431DB9 /* ViewController.swift in Sources */,
+				BC84F56D211BC1D900431DB9 /* ClassViewController.swift in Sources */,
 				BC84F558211BA4F300431DB9 /* AppDelegate.swift in Sources */,
+				BC84F573211BC23800431DB9 /* LoopViewController.swift in Sources */,
+				BC84F56B211BBF6300431DB9 /* AbastracViewController.swift in Sources */,
+				BC84F571211BC21D00431DB9 /* AlgorithmViewController.swift in Sources */,
+				BC84F56F211BC1FE00431DB9 /* ConditionalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +317,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "nextu.com.evaluacion1-ios-nextu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -307,7 +335,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "nextu.com.evaluacion1-ios-nextu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

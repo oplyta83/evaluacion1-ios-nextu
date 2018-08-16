@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lT8-Ue-YPe">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="17G65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="lT8-Ue-YPe">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <deployment version="2096" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -15,7 +14,7 @@
         <scene sceneID="ai8-Dw-2Jo">
             <objects>
                 <tableViewController clearsSelectionOnViewWillAppear="NO" id="6eW-jj-bdL" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="N6l-Mh-g1N">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="N6l-Mh-g1N">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -25,12 +24,12 @@
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="RMc-bx-6W9">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RMc-bx-6W9" id="rOb-vI-x5Z">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" tableViewCell="RMc-bx-6W9" id="rOb-vI-x5Z">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Abstraction" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lUN-HP-mhH">
-                                                    <rect key="frame" x="16" y="12" width="89" height="21"/>
+                                                    <rect key="frame" x="15" y="12" width="89" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -48,12 +47,12 @@
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="14f-Uy-ZOw">
                                         <rect key="frame" x="0.0" y="72" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="14f-Uy-ZOw" id="oQm-zP-PdZ">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" tableViewCell="14f-Uy-ZOw" id="oQm-zP-PdZ">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Algorithm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UnA-wL-ZBA">
-                                                    <rect key="frame" x="16" y="12" width="75" height="21"/>
+                                                    <rect key="frame" x="15" y="12" width="75" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -71,12 +70,12 @@
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="TDV-FH-leA">
                                         <rect key="frame" x="0.0" y="116" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TDV-FH-leA" id="3db-Sv-5ez">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" tableViewCell="TDV-FH-leA" id="3db-Sv-5ez">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Class" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gzk-T0-NhP">
-                                                    <rect key="frame" x="16" y="12" width="42" height="21"/>
+                                                    <rect key="frame" x="15" y="12" width="42" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -94,12 +93,12 @@
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="4qO-FC-LRq">
                                         <rect key="frame" x="0.0" y="160" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4qO-FC-LRq" id="uqs-z9-vdh">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" tableViewCell="4qO-FC-LRq" id="uqs-z9-vdh">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Conditional" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ziM-rO-raj">
-                                                    <rect key="frame" x="16" y="12" width="87" height="21"/>
+                                                    <rect key="frame" x="15" y="12" width="87" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -117,12 +116,12 @@
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="CkC-E2-jxZ">
                                         <rect key="frame" x="0.0" y="204" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CkC-E2-jxZ" id="mY2-fn-IXl">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" tableViewCell="CkC-E2-jxZ" id="mY2-fn-IXl">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loop" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Czk-0X-JuE">
-                                                    <rect key="frame" x="16" y="12" width="39" height="21"/>
+                                                    <rect key="frame" x="15" y="12" width="39" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -144,12 +143,12 @@
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="6aj-4h-xKF">
                                         <rect key="frame" x="0.0" y="276" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6aj-4h-xKF" id="gac-M4-94Z">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" tableViewCell="6aj-4h-xKF" id="gac-M4-94Z">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change Lenguage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pgW-ps-9oT">
-                                                    <rect key="frame" x="16" y="12" width="140" height="21"/>
+                                                    <rect key="frame" x="15" y="12" width="140" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -182,12 +181,16 @@
         <scene sceneID="fgM-Nz-cs2">
             <objects>
                 <viewController id="t5H-Qc-btT" customClass="ViewController" customModule="evaluacion1_ios_nextu" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="p2o-O2-HW7"/>
+                        <viewControllerLayoutGuide type="bottom" id="Dsv-bm-2Oh"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="3dj-RD-Nbf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="T0j-1W-rSK">
-                                <rect key="frame" x="16" y="149" width="343" height="29"/>
+                                <rect key="frame" x="16" y="105" width="343" height="29"/>
                                 <segments>
                                     <segment title="Español"/>
                                     <segment title="Ingles"/>
@@ -197,7 +200,7 @@
                                 </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seleccione Idioma" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GDF-YD-qzy">
-                                <rect key="frame" x="118" y="98" width="139" height="21"/>
+                                <rect key="frame" x="118" y="54" width="139" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -205,13 +208,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="GDF-YD-qzy" firstAttribute="centerX" secondItem="T0j-1W-rSK" secondAttribute="centerX" id="8ON-MF-Ybj"/>
-                            <constraint firstItem="GDF-YD-qzy" firstAttribute="top" secondItem="SBu-F8-UYp" secondAttribute="top" constant="34" id="H3y-0t-c4h"/>
-                            <constraint firstItem="T0j-1W-rSK" firstAttribute="leading" secondItem="3dj-RD-Nbf" secondAttribute="leadingMargin" id="NPw-ug-wUa"/>
-                            <constraint firstItem="T0j-1W-rSK" firstAttribute="top" secondItem="GDF-YD-qzy" secondAttribute="bottom" constant="30" id="P7i-iT-4T1"/>
-                            <constraint firstItem="T0j-1W-rSK" firstAttribute="trailing" secondItem="3dj-RD-Nbf" secondAttribute="trailingMargin" id="m0C-YI-Wj1"/>
+                            <constraint firstItem="T0j-1W-rSK" firstAttribute="leading" secondItem="3dj-RD-Nbf" secondAttribute="leadingMargin" id="7Gc-oI-fCK"/>
+                            <constraint firstItem="T0j-1W-rSK" firstAttribute="top" secondItem="GDF-YD-qzy" secondAttribute="bottom" constant="30" id="QMB-l9-a8G"/>
+                            <constraint firstItem="GDF-YD-qzy" firstAttribute="centerX" secondItem="T0j-1W-rSK" secondAttribute="centerX" id="WCu-DJ-z5A"/>
+                            <constraint firstItem="T0j-1W-rSK" firstAttribute="trailing" secondItem="3dj-RD-Nbf" secondAttribute="trailingMargin" id="dRb-jt-bXi"/>
+                            <constraint firstItem="GDF-YD-qzy" firstAttribute="top" secondItem="p2o-O2-HW7" secondAttribute="bottom" constant="34" id="p9U-4d-MUX"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="SBu-F8-UYp"/>
                     </view>
                     <connections>
                         <outlet property="sgcLenguage" destination="T0j-1W-rSK" id="36M-Om-cui"/>
@@ -225,22 +227,26 @@
         <scene sceneID="8Oa-eS-4jb">
             <objects>
                 <viewController id="9cL-aa-QRt" customClass="AlgorithmViewController" customModule="evaluacion1_ios_nextu" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="inH-a9-1of"/>
+                        <viewControllerLayoutGuide type="bottom" id="wOa-VE-qIL"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="aY2-rG-0Bj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Algoritmo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="niq-B3-hzY">
-                                <rect key="frame" x="150" y="64" width="75" height="21"/>
+                                <rect key="frame" x="150" y="20" width="75" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="Wn6-Hr-vjx">
-                                <rect key="frame" x="16" y="93" width="343" height="356"/>
+                                <rect key="frame" x="16" y="49" width="343" height="400"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">En matemáticas, lógica, ciencias de la computación y disciplinas relacionadas, un algoritmo (del griego y latín, dixit algorithmus y este del griego arithmos, que significa «número», quizá también con influencia del nombre del matemático persa Al-Juarismi)1​ es un conjunto prescrito de instrucciones o reglas bien definidas, ordenadas y finitas que permite llevar a cabo una actividad mediante pasos sucesivos que no generen dudas a quien deba hacer dicha actividad.2​ Dados un estado inicial y una entrada, siguiendo los pasos sucesivos se llega a un estado final y se obtiene una solución. Los algoritmos son el objeto de estudio de la algoritmia.1​
+                                <string key="text">En matemáticas, lógica, ciencias de la computación y disciplinas relacionadas, un algoritmo (del griego y latín, dixit algorithmus y este del griego arithmos, que significa «número», quizá también con influencia del nombre del matemático persa Al-Juarismi)1​ es un conjunto prescrito de instrucciones o reglas bien definidas, ordenadas y finitas que permite llevar a cabo una actividad mediante pasos sucesivos que no generen dudas a quien deba hacer dicha actividad.2​ Dados un estado inicial y una entrada, siguiendo los pasos sucesivos se llega a un estado final y se obtiene una solución. Los algoritmos son el objeto de estudio de la algoritmia.1​
 
-En la vida cotidiana, se emplean algoritmos frecuentemente para resolver problemas. Algunos ejemplos son los manuales de usuario, que muestran algoritmos para usar un aparato, o las instrucciones que recibe un trabajador de su patrón. Algunos ejemplos en matemática son el algoritmo de multiplicación, para calcular el producto, el algoritmo de la división para calcular el cociente de dos números, el algoritmo de Euclides para obtener el máximo común divisor de dos enteros positivos, o el método de Gauss para resolver un sistema de ecuaciones lineales.</mutableString>
+En la vida cotidiana, se emplean algoritmos frecuentemente para resolver problemas. Algunos ejemplos son los manuales de usuario, que muestran algoritmos para usar un aparato, o las instrucciones que recibe un trabajador de su patrón. Algunos ejemplos en matemática son el algoritmo de multiplicación, para calcular el producto, el algoritmo de la división para calcular el cociente de dos números, el algoritmo de Euclides para obtener el máximo común divisor de dos enteros positivos, o el método de Gauss para resolver un sistema de ecuaciones lineales.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -263,12 +269,12 @@ En la vida cotidiana, se emplean algoritmos frecuentemente para resolver problem
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="niq-B3-hzY" firstAttribute="top" secondItem="t6n-O9-eyI" secondAttribute="top" id="0Km-Nd-vZN"/>
+                            <constraint firstItem="niq-B3-hzY" firstAttribute="top" secondItem="inH-a9-1of" secondAttribute="bottom" id="0Km-Nd-vZN"/>
                             <constraint firstItem="9b9-Ws-8XA" firstAttribute="trailing" secondItem="9n8-J7-9TG" secondAttribute="trailing" id="6OZ-6P-09Q"/>
                             <constraint firstItem="Wn6-Hr-vjx" firstAttribute="leading" secondItem="9b9-Ws-8XA" secondAttribute="leading" id="EYI-ut-nVT"/>
                             <constraint firstItem="Wn6-Hr-vjx" firstAttribute="leading" secondItem="aY2-rG-0Bj" secondAttribute="leadingMargin" id="R2Q-Id-Lem"/>
                             <constraint firstItem="niq-B3-hzY" firstAttribute="centerX" secondItem="Wn6-Hr-vjx" secondAttribute="centerX" id="WBN-UW-rSX"/>
-                            <constraint firstItem="t6n-O9-eyI" firstAttribute="bottom" secondItem="9n8-J7-9TG" secondAttribute="bottom" constant="8" id="bee-RF-Ggm"/>
+                            <constraint firstItem="wOa-VE-qIL" firstAttribute="top" secondItem="9n8-J7-9TG" secondAttribute="bottom" constant="8" id="bee-RF-Ggm"/>
                             <constraint firstItem="9n8-J7-9TG" firstAttribute="top" secondItem="9b9-Ws-8XA" secondAttribute="bottom" constant="8" symbolic="YES" id="gAk-Yt-QyS"/>
                             <constraint firstItem="9b9-Ws-8XA" firstAttribute="top" secondItem="Wn6-Hr-vjx" secondAttribute="bottom" constant="8" symbolic="YES" id="ghc-Th-zOg"/>
                             <constraint firstItem="Wn6-Hr-vjx" firstAttribute="top" secondItem="niq-B3-hzY" secondAttribute="bottom" constant="8" symbolic="YES" id="kA9-f7-6rF"/>
@@ -276,7 +282,6 @@ En la vida cotidiana, se emplean algoritmos frecuentemente para resolver problem
                             <constraint firstItem="Wn6-Hr-vjx" firstAttribute="trailing" secondItem="9b9-Ws-8XA" secondAttribute="trailing" id="vkg-2X-G8L"/>
                             <constraint firstItem="Wn6-Hr-vjx" firstAttribute="trailing" secondItem="aY2-rG-0Bj" secondAttribute="trailingMargin" id="xkw-6Z-Hdd"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="t6n-O9-eyI"/>
                     </view>
                     <connections>
                         <outlet property="btnWikipedia" destination="9n8-J7-9TG" id="9pR-lr-Vs3"/>
@@ -292,24 +297,28 @@ En la vida cotidiana, se emplean algoritmos frecuentemente para resolver problem
         <scene sceneID="vKx-A9-rFW">
             <objects>
                 <viewController id="StE-G1-hv1" customClass="ConditionalViewController" customModule="evaluacion1_ios_nextu" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Uu8-AY-eK1"/>
+                        <viewControllerLayoutGuide type="bottom" id="E0I-XK-tTo"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8S7-j9-av2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sentencia Condicional" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uug-8f-CwX">
-                                <rect key="frame" x="102" y="64" width="170" height="21"/>
+                                <rect key="frame" x="102" y="20" width="170" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="z8h-46-WoB">
-                                <rect key="frame" x="16" y="93" width="343" height="292"/>
+                                <rect key="frame" x="16" y="49" width="343" height="336"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">En programación, una sentencia condicional es una instrucción o grupo de instrucciones que se pueden ejecutar o no en función del valor de una condición.
+                                <string key="text">En programación, una sentencia condicional es una instrucción o grupo de instrucciones que se pueden ejecutar o no en función del valor de una condición.
 
 Los tipos más conocidos de sentencias condicionales son el SI..ENTONCES (if..then), el SI..ENTONCES..SI NO (if..then..else) y el SEGÚN (case o switch), aunque también podríamos mencionar al manejo de excepciones como una alternativa más moderna para evitar el "anidamiento" de sentencias condicionales.
 
-Las sentencias condicionales constituyen, junto con los bucles, los pilares de la programación estructurada, y su uso es una evolución de una sentencia en lenguaje ensamblador que ejecutaba la siguiente línea o no en función del valor de una condición.</mutableString>
+Las sentencias condicionales constituyen, junto con los bucles, los pilares de la programación estructurada, y su uso es una evolución de una sentencia en lenguaje ensamblador que ejecutaba la siguiente línea o no en función del valor de una condición.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -335,7 +344,7 @@ Las sentencias condicionales constituyen, junto con los bucles, los pilares de l
                             <constraint firstItem="qgb-6e-iV4" firstAttribute="leading" secondItem="x32-oi-MZ4" secondAttribute="leading" id="2ga-HI-YBN"/>
                             <constraint firstItem="z8h-46-WoB" firstAttribute="leading" secondItem="qgb-6e-iV4" secondAttribute="leading" id="5pE-ng-aYQ"/>
                             <constraint firstItem="qgb-6e-iV4" firstAttribute="trailing" secondItem="x32-oi-MZ4" secondAttribute="trailing" id="Ep3-CF-kJU"/>
-                            <constraint firstItem="uug-8f-CwX" firstAttribute="top" secondItem="nv3-bP-9sQ" secondAttribute="top" id="I3g-Yf-hgj"/>
+                            <constraint firstItem="uug-8f-CwX" firstAttribute="top" secondItem="Uu8-AY-eK1" secondAttribute="bottom" id="I3g-Yf-hgj"/>
                             <constraint firstItem="z8h-46-WoB" firstAttribute="top" secondItem="uug-8f-CwX" secondAttribute="bottom" constant="8" symbolic="YES" id="NTB-NF-JNP"/>
                             <constraint firstItem="z8h-46-WoB" firstAttribute="trailing" secondItem="qgb-6e-iV4" secondAttribute="trailing" id="W04-n0-1E4"/>
                             <constraint firstItem="qgb-6e-iV4" firstAttribute="top" secondItem="z8h-46-WoB" secondAttribute="bottom" constant="8" symbolic="YES" id="WkD-CR-Tpp"/>
@@ -343,9 +352,8 @@ Las sentencias condicionales constituyen, junto con los bucles, los pilares de l
                             <constraint firstItem="z8h-46-WoB" firstAttribute="leading" secondItem="8S7-j9-av2" secondAttribute="leadingMargin" id="awT-jY-AcL"/>
                             <constraint firstItem="z8h-46-WoB" firstAttribute="trailing" secondItem="8S7-j9-av2" secondAttribute="trailingMargin" id="tMW-2r-gvg"/>
                             <constraint firstItem="uug-8f-CwX" firstAttribute="centerX" secondItem="z8h-46-WoB" secondAttribute="centerX" id="uVI-Vh-dMN"/>
-                            <constraint firstItem="nv3-bP-9sQ" firstAttribute="bottom" secondItem="x32-oi-MZ4" secondAttribute="bottom" constant="11" id="y2m-bM-nHY"/>
+                            <constraint firstItem="E0I-XK-tTo" firstAttribute="top" secondItem="x32-oi-MZ4" secondAttribute="bottom" constant="11" id="y2m-bM-nHY"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="nv3-bP-9sQ"/>
                     </view>
                     <connections>
                         <outlet property="lblTitle" destination="uug-8f-CwX" id="Ltq-Hc-Wi5"/>
@@ -360,18 +368,22 @@ Las sentencias condicionales constituyen, junto con los bucles, los pilares de l
         <scene sceneID="RcD-RD-3ng">
             <objects>
                 <viewController id="Qem-O0-UvO" customClass="LoopViewController" customModule="evaluacion1_ios_nextu" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="t32-vI-y3Q"/>
+                        <viewControllerLayoutGuide type="bottom" id="B1j-6Y-6Eq"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="fFd-fA-Cam">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bucle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rqp-HX-Lmj">
-                                <rect key="frame" x="166" y="64" width="43" height="21"/>
+                                <rect key="frame" x="166" y="20" width="43" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="vEx-q0-ita">
-                                <rect key="frame" x="16" y="93" width="343" height="331"/>
+                                <rect key="frame" x="16" y="49" width="343" height="331"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="331" id="n9p-aq-dDM"/>
@@ -401,17 +413,16 @@ Las sentencias condicionales constituyen, junto con los bucles, los pilares de l
                         <constraints>
                             <constraint firstItem="gMz-M1-pU4" firstAttribute="trailing" secondItem="5xn-67-5kX" secondAttribute="trailing" id="17V-oM-GZ6"/>
                             <constraint firstItem="vEx-q0-ita" firstAttribute="leading" secondItem="gMz-M1-pU4" secondAttribute="leading" id="H1L-Y0-Drg"/>
-                            <constraint firstItem="ZCT-W5-Btq" firstAttribute="trailing" secondItem="gMz-M1-pU4" secondAttribute="trailing" constant="10" id="I7H-jc-h1n"/>
+                            <constraint firstAttribute="trailing" secondItem="gMz-M1-pU4" secondAttribute="trailing" constant="10" id="I7H-jc-h1n"/>
                             <constraint firstItem="Rqp-HX-Lmj" firstAttribute="centerX" secondItem="vEx-q0-ita" secondAttribute="centerX" id="NUM-Lu-fF0"/>
                             <constraint firstItem="vEx-q0-ita" firstAttribute="top" secondItem="Rqp-HX-Lmj" secondAttribute="bottom" constant="8" symbolic="YES" id="S0Q-MS-ekf"/>
-                            <constraint firstItem="Rqp-HX-Lmj" firstAttribute="top" secondItem="ZCT-W5-Btq" secondAttribute="top" id="SDJ-OC-o2N"/>
+                            <constraint firstItem="Rqp-HX-Lmj" firstAttribute="top" secondItem="t32-vI-y3Q" secondAttribute="bottom" id="SDJ-OC-o2N"/>
                             <constraint firstItem="gMz-M1-pU4" firstAttribute="leading" secondItem="5xn-67-5kX" secondAttribute="leading" id="Z9o-JF-1qB"/>
                             <constraint firstItem="vEx-q0-ita" firstAttribute="leading" secondItem="fFd-fA-Cam" secondAttribute="leadingMargin" id="bbs-EL-lwd"/>
                             <constraint firstItem="5xn-67-5kX" firstAttribute="top" secondItem="gMz-M1-pU4" secondAttribute="bottom" constant="14" id="tcR-2Y-WXQ"/>
                             <constraint firstAttribute="bottom" secondItem="5xn-67-5kX" secondAttribute="bottom" constant="20" symbolic="YES" id="zm3-Vq-LMF"/>
                             <constraint firstItem="vEx-q0-ita" firstAttribute="trailing" secondItem="fFd-fA-Cam" secondAttribute="trailingMargin" id="zn5-jz-XJR"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="ZCT-W5-Btq"/>
                     </view>
                     <connections>
                         <outlet property="lblTitle" destination="Rqp-HX-Lmj" id="Laa-Id-KSc"/>
@@ -426,20 +437,24 @@ Las sentencias condicionales constituyen, junto con los bucles, los pilares de l
         <scene sceneID="YkD-l3-YUr">
             <objects>
                 <viewController id="e8i-je-zpR" customClass="AbastracViewController" customModule="evaluacion1_ios_nextu" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="H4X-eM-h7n"/>
+                        <viewControllerLayoutGuide type="bottom" id="Q2h-rf-XMo"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="rCV-Jc-ec6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Abatraccion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mO9-Jd-RFc">
-                                <rect key="frame" x="141" y="64" width="93" height="21"/>
+                                <rect key="frame" x="141" y="20" width="93" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="4P8-Ln-zmZ">
-                                <rect key="frame" x="16" y="93" width="343" height="349"/>
+                                <rect key="frame" x="16" y="49" width="343" height="393"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">La abstracción consiste en aislar un elemento de su contexto o del resto de los elementos que lo acompañan. En programación, el término se refiere al énfasis en el "¿qué hace?" más que en el "¿cómo lo hace?" (característica de caja negra). El común denominador en la evolución de los lenguajes de programación, desde los clásicos o imperativos hasta los orientados a objetos, ha sido el nivel de abstracción del que cada uno de ellos hace uso.
+                                <string key="text">La abstracción consiste en aislar un elemento de su contexto o del resto de los elementos que lo acompañan. En programación, el término se refiere al énfasis en el "¿qué hace?" más que en el "¿cómo lo hace?" (característica de caja negra). El común denominador en la evolución de los lenguajes de programación, desde los clásicos o imperativos hasta los orientados a objetos, ha sido el nivel de abstracción del que cada uno de ellos hace uso.
 
 Los lenguajes de programación son las herramientas mediante las cuales los diseñadores de lenguajes pueden implementar los modelos abstractos. La abstracción ofrecida por los lenguajes de programación se puede dividir en dos categorías: abstracción de datos (pertenecientes a los datos) y abstracción de control (perteneciente a las estructuras de control).
 
@@ -449,7 +464,7 @@ La abstracción encarada desde el punto de vista de la programación orientada a
 
 La misma genera una ilusión de simplicidad dado que minimiza la cantidad de características que definen a un objeto.
 
-Durante años, los programadores se han dedicado a construir aplicaciones muy parecidas que resolvían una y otra vez los mismos problemas. Para conseguir que sus esfuerzos pudiesen ser utilizados por otras personas se creó la POO que consiste en una serie de normas para garantizar la interoperabilidad entre usuarios de manera que el código se pueda reutilizar.</mutableString>
+Durante años, los programadores se han dedicado a construir aplicaciones muy parecidas que resolvían una y otra vez los mismos problemas. Para conseguir que sus esfuerzos pudiesen ser utilizados por otras personas se creó la POO que consiste en una serie de normas para garantizar la interoperabilidad entre usuarios de manera que el código se pueda reutilizar.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -483,10 +498,9 @@ Durante años, los programadores se han dedicado a construir aplicaciones muy pa
                             <constraint firstItem="T3q-I4-Bcp" firstAttribute="top" secondItem="4P8-Ln-zmZ" secondAttribute="bottom" constant="8" symbolic="YES" id="fLC-a1-UBy"/>
                             <constraint firstItem="4P8-Ln-zmZ" firstAttribute="leading" secondItem="rCV-Jc-ec6" secondAttribute="leadingMargin" id="nt3-Ez-Kcz"/>
                             <constraint firstItem="mO9-Jd-RFc" firstAttribute="centerX" secondItem="4P8-Ln-zmZ" secondAttribute="centerX" id="oiM-ym-YLo"/>
-                            <constraint firstItem="97c-8q-Rig" firstAttribute="bottom" secondItem="Ri2-gC-umA" secondAttribute="bottom" constant="17" id="qsS-MO-0nZ"/>
-                            <constraint firstItem="mO9-Jd-RFc" firstAttribute="top" secondItem="97c-8q-Rig" secondAttribute="top" id="xXZ-C9-Cnm"/>
+                            <constraint firstItem="Q2h-rf-XMo" firstAttribute="top" secondItem="Ri2-gC-umA" secondAttribute="bottom" constant="17" id="qsS-MO-0nZ"/>
+                            <constraint firstItem="mO9-Jd-RFc" firstAttribute="top" secondItem="H4X-eM-h7n" secondAttribute="bottom" id="xXZ-C9-Cnm"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="97c-8q-Rig"/>
                     </view>
                     <connections>
                         <outlet property="lblTitle" destination="mO9-Jd-RFc" id="h5J-h1-LPZ"/>
@@ -501,24 +515,28 @@ Durante años, los programadores se han dedicado a construir aplicaciones muy pa
         <scene sceneID="x5Y-dB-5G7">
             <objects>
                 <viewController id="bh2-sn-9zo" customClass="ClassViewController" customModule="evaluacion1_ios_nextu" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8tu-RN-qR9"/>
+                        <viewControllerLayoutGuide type="bottom" id="oan-9v-eub"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="3oa-WZ-FJx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clase" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ofh-vc-HrJ">
-                                <rect key="frame" x="166" y="64" width="43" height="21"/>
+                                <rect key="frame" x="166" y="20" width="43" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="CQf-KT-zGD">
-                                <rect key="frame" x="16" y="93" width="343" height="323"/>
+                                <rect key="frame" x="16" y="49" width="343" height="367"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">En informática, una clase es una plantilla para la creación de objetos de datos según un modelo predefinido. Las clases se utilizan para representar entidades o conceptos, como los sustantivos en el lenguaje. Cada clase es un modelo que define un conjunto de variables -el estado, y métodos apropiados para operar con dichos datos -el comportamiento. Cada objeto creado a partir de la clase se denomina instancia de la clase.
+                                <string key="text">En informática, una clase es una plantilla para la creación de objetos de datos según un modelo predefinido. Las clases se utilizan para representar entidades o conceptos, como los sustantivos en el lenguaje. Cada clase es un modelo que define un conjunto de variables -el estado, y métodos apropiados para operar con dichos datos -el comportamiento. Cada objeto creado a partir de la clase se denomina instancia de la clase.
 
 Las clases son un pilar fundamental de la programación orientada a objetos. Permiten abstraer los datos y sus operaciones asociadas al modo de una caja negra. Los lenguajes de programación que soportan clases difieren sutilmente en su soporte para diversas características relacionadas con clases. La mayoría soportan diversas formas de herencia. Muchos lenguajes también soportan características para proporcionar encapsulación, como especificadores de acceso.
 
-Una clase también puede tener una representación (metaobjeto) en tiempo de ejecución, que proporciona apoyo en tiempo de ejecución para la manipulación de los metadatos relacionados con la clase.</mutableString>
+Una clase también puede tener una representación (metaobjeto) en tiempo de ejecución, que proporciona apoyo en tiempo de ejecución para la manipulación de los metadatos relacionados con la clase.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -542,19 +560,18 @@ Una clase también puede tener una representación (metaobjeto) en tiempo de eje
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="rsY-Dj-ah6" firstAttribute="top" secondItem="WMq-9S-EyQ" secondAttribute="bottom" constant="8" symbolic="YES" id="2mm-ZP-Yir"/>
-                            <constraint firstItem="ysC-1a-0pu" firstAttribute="bottom" secondItem="rsY-Dj-ah6" secondAttribute="bottom" constant="9" id="3r3-2k-tgE"/>
+                            <constraint firstItem="oan-9v-eub" firstAttribute="top" secondItem="rsY-Dj-ah6" secondAttribute="bottom" constant="9" id="3r3-2k-tgE"/>
                             <constraint firstItem="CQf-KT-zGD" firstAttribute="top" secondItem="ofh-vc-HrJ" secondAttribute="bottom" constant="8" symbolic="YES" id="3yZ-qB-qz3"/>
                             <constraint firstItem="CQf-KT-zGD" firstAttribute="leading" secondItem="3oa-WZ-FJx" secondAttribute="leadingMargin" id="622-0r-6SQ"/>
                             <constraint firstItem="CQf-KT-zGD" firstAttribute="trailing" secondItem="WMq-9S-EyQ" secondAttribute="trailing" id="M3V-PC-VUT"/>
                             <constraint firstItem="WMq-9S-EyQ" firstAttribute="trailing" secondItem="rsY-Dj-ah6" secondAttribute="trailing" id="Mzk-jR-oXv"/>
                             <constraint firstItem="ofh-vc-HrJ" firstAttribute="centerX" secondItem="CQf-KT-zGD" secondAttribute="centerX" id="NI0-jA-Fgn"/>
                             <constraint firstItem="WMq-9S-EyQ" firstAttribute="leading" secondItem="rsY-Dj-ah6" secondAttribute="leading" id="bpl-Nw-myg"/>
-                            <constraint firstItem="ofh-vc-HrJ" firstAttribute="top" secondItem="ysC-1a-0pu" secondAttribute="top" id="dcA-dX-IO2"/>
+                            <constraint firstItem="ofh-vc-HrJ" firstAttribute="top" secondItem="8tu-RN-qR9" secondAttribute="bottom" id="dcA-dX-IO2"/>
                             <constraint firstItem="CQf-KT-zGD" firstAttribute="trailing" secondItem="3oa-WZ-FJx" secondAttribute="trailingMargin" id="hWm-qD-HqK"/>
                             <constraint firstItem="CQf-KT-zGD" firstAttribute="leading" secondItem="WMq-9S-EyQ" secondAttribute="leading" id="kae-aY-ek9"/>
                             <constraint firstItem="WMq-9S-EyQ" firstAttribute="top" secondItem="CQf-KT-zGD" secondAttribute="bottom" constant="8" symbolic="YES" id="uJe-WS-2b8"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="ysC-1a-0pu"/>
                     </view>
                     <connections>
                         <outlet property="lblTitle" destination="ofh-vc-HrJ" id="xul-pJ-hlp"/>
@@ -569,7 +586,7 @@ Una clase también puede tener una representación (metaobjeto) en tiempo de eje
         <scene sceneID="L6Y-oX-EKm">
             <objects>
                 <navigationController id="xmU-hd-Few" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9cU-fg-1AR">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9cU-fg-1AR">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
